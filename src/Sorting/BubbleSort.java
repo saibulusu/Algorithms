@@ -15,8 +15,6 @@ public class BubbleSort {
 		return array;
 	}
 
-
-
 	public static void main(String[] args){
 		int[] array = {0, -3, 10, 3, 4, 3, 9, 17, -10, 43};
 		int[] sorted = bubbleSort(array);
