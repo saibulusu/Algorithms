@@ -8,4 +8,6 @@ Insertion Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting
 
 Selection Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/SelectionSort.java
 
+Merge Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/MergeSort.java
+
 
