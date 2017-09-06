@@ -6,3 +6,6 @@ Bubble Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/Bu
 
 Insertion Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/InsertionSort.java
 
+Selection Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/SelectionSort.java
+
+
