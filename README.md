@@ -6,6 +6,8 @@ One Algorithm a day
 
 Linear Search : https://github.com/saibulusu/Algorithms/blob/master/src/Searching/LinearSearch.java
 
+Binary Search : https://github.com/saibulusu/Algorithms/blob/master/src/Searching/BinarySearch.java
+
 
 
 ## Sorting
