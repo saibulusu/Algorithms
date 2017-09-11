@@ -2,11 +2,15 @@
 
 One Algorithm a day
 
+
+
 ## Searching
 
 Linear Search : https://github.com/saibulusu/Algorithms/blob/master/src/Searching/LinearSearch.java
 
 Binary Search : https://github.com/saibulusu/Algorithms/blob/master/src/Searching/BinarySearch.java
+
+
 
 
 
@@ -19,4 +23,4 @@ Selection Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting
 
 Merge Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/MergeSort.java
 
-
+Bogo Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/BogoSort.java
