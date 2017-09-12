@@ -26,3 +26,5 @@ Merge Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/Mer
 Bogo Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/BogoSort.java
 
 Quick Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/QuickSort.java
+
+Pancake Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/PancakeSort.java
