@@ -24,3 +24,5 @@ Selection Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting
 Merge Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/MergeSort.java
 
 Bogo Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/BogoSort.java
+
+Quick Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/QuickSort.java
