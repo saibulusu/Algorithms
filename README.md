@@ -28,3 +28,5 @@ Bogo Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/Bogo
 Quick Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/QuickSort.java
 
 Pancake Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/PancakeSort.java
+
+Counting Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/CountingSort.java
