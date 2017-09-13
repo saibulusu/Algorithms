@@ -30,3 +30,6 @@ Quick Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/Qui
 Pancake Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/PancakeSort.java
 
 Counting Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/CountingSort.java
+
+## String Manipulation
+Shift by k : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ShiftByK.java
