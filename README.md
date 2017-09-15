@@ -33,3 +33,5 @@ Counting Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/
 
 ## String Manipulation
 Shift by k : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ShiftByK.java
+
+Sort Substring : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/SortSubstring.java
