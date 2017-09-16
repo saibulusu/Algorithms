@@ -5,8 +5,11 @@ import org.junit.Test;
 public class BubbleSort {
 	
 	public static int[] bubbleSort(int[] array){
+		//iterate through the whole array besides the last value
 		for(int i = 0; i < array.length - 1; i++){
+			//for each iteration, iterate through the whole array besides the last i values
 			for(int j = 0; j < array.length - 1 - i; j++){
+				//if the current value is greater than the value after it, swap
 				if(array[j] > array[j+1]){
 					int temp = array[j];
 					array[j] = array[j+1];

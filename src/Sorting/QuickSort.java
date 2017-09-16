@@ -4,25 +4,35 @@ import org.junit.Test;
 
 public class QuickSort {
 	
+	//quickSort from 0 to the last index of the array
 	public static int[] quickSort(int[] array){
 		return quickSort(array, 0, array.length - 1);
 	}
 
+	//recursive quickSort from left to right inclusive
 	public static int[] quickSort(int[] array, int left, int right){
+		//partition the array
 		int index = partition(array, left, right);
 		
+		//if left is to the left of index - 1, sort everything in this range
 		if(left < index - 1){
 			array = quickSort(array, left, index - 1);
 		}
+		
+		//if right is to the right of index, sort everything in this range
 		if(right > index){
 			array = quickSort(array, index, right);
 		}
 		return array;
 	}
 	
+	//partition the array from left to right inclusive
 	public static int partition(int[] array, int left, int right){
+		//choose a pivot randomly
 		int pivot = array[(int)(Math.random() * array.length)];
 		
+		//from left to right, array[left] and array[right] to pivot,
+		//then swap the two values and move in closer to the pivot
 		while(left < right){
 			while(array[left] < pivot){
 				left++;
@@ -33,9 +43,11 @@ public class QuickSort {
 			}
 			
 			if(left <= right){
+				//swap left and right
 				int temp = array[left];
 				array[left] = array[right];
 				array[right] = temp;
+				//increment and decrement left and right respectively, more close to pivot
 				left++;
 				right--;
 			}

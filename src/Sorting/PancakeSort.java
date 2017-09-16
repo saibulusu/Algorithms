@@ -5,9 +5,13 @@ import org.junit.Test;
 public class PancakeSort {
 	
 	public static int[] pancakeSort(int[] array){
+		//iterate through the whole array backwards
 		for(int size = array.length; size > 1; size--){
+			//calculate maxIndex
 			int maxIndex = maxElementIndex(array, size);
 			if(maxIndex != size - 1){
+				//while the maxIndex is not right before the size index, flip everything 
+				//before the size index
 				flip(array, maxIndex);
 				flip(array, size - 1);
 			}
@@ -15,22 +19,30 @@ public class PancakeSort {
 		return array;
 	}
 	
+	//calculate the maximum element starting at 0 before end in a given array
 	public static int maxElementIndex(int[] array, int end){
+		//iterate through everything before end
 		int index = 0;
 		for(int i = 0; i < end; i++){
+			//if the current value is greater than max, re-evaluate max
 			if(array[index] < array[i]){
 				index = i;
 			}
 		}
 		return index;
 	}
-	
+
+	//flip everything in the array from 0 to end inclusive
 	public static void flip(int[] array, int end){
+		//start at 0
 		int start = 0;
+		//go through the whole array from 0 to end and reverse elements
 		while(start <= end){
+			//swap the values at start and end
 			int temp = array[start];
 			array[start] = array[end];
 			array[end] = temp;
+			//update start and end
 			start++;
 			end--;
 		}

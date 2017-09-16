@@ -5,24 +5,34 @@ import org.junit.Test;
 public class CountingSort {
 	
 	public static int[] countingSort(int[] array){
+		//determine the max value in this array
 		int max = array[0];
 		
+		//iterate through the whole array and check if the value at this index is already
+		//greater than the max 
 		for(int i = 0; i < array.length; i++){
 			max = Math.max(array[i], max);
 		}
-		
+
+		//array to record the number of counts,
+		//meaning all of the remainders when divided by max
 		int[] counts = new int[max + 1];
+		//iterate through the whole array
 		for(int i = 0; i < array.length; i++){
+			//the remainders count when divided by max are added to this array
 			counts[i%max]++;
 		}
 		
+		//copy the array, sorted count is zero, meaning the number of elements already sorted
 		int[] copy = array;
 		int sorted = 0;
 		
+		//iterate through the counts array
 		for(int i = 0; i < counts.length; i++){
 			int count = counts[i];
-			
+			//iterate to each element in the array from zero (0, 1, 2, ..., count - 1)
 			for(int j = 0; j < count; j++){
+				//place i into the array, at sorted, increment sorted
 				array[sorted] = i;
 				sorted++;
 			}

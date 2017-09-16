@@ -6,15 +6,21 @@ public class SelectionSort {
 	
 	public static int[] selectionSort(int[] array){
 		for(int i = 0; i < array.length - 1; i++){
+			//compute the index of the smallest value outside of the sorted segment of the array
 			int minIndex = i + 1;
 			int min = array[minIndex];
+			//iterate through the whole array
 			for(int j = i + 1; j < array.length; j++){
 				if(min > array[j]){
+					//if min is greater than the current value, update min
 					min = array[j];
 					minIndex = j;
 				}
 			}
+			
+			//if the array minIndex is less than the current value, swap
 			if(array[minIndex] < array[i]){
+				//swap the current index with the min value, no rotation
 				int temp = min;
 				array[minIndex] = array[i];
 				array[i] = temp;

@@ -5,18 +5,24 @@ import org.junit.Test;
 public class BinarySearch {
 
 	public static int binarySearch(int[] array, int target) {
+		//initialize left and right to either end of the array
 		int left = 0;
 		int right = array.length - 1;
 		while (left <= right) {
+			//recompute mid each time to be halfway between left and right
 			int mid = (left + right) / 2;
 			if (array[mid] < target) {
+				//if our target is greater than the value at the mid, nothing on the left matters
 				left = mid + 1;
 			} else if (array[mid] > target) {
+				//if our target is less than the value at the mid, nothing on the right matters
 				right = mid - 1;
 			} else {
+				//otherwise the value must be at the mid
 				return mid;
 			}
 		}
+		//if none of the conditions apply to the mid and the target, the target is not in the array
 		return -1;
 	}
 

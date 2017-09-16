@@ -5,10 +5,17 @@ import org.junit.Test;
 public class InsertionSort {
 	
 	public static int[] insertionSort(int[] array){
+		//iterate through the whole array
 		for(int i = 0; i < array.length; i++){
+			//the previous value in the array, will be compared
 			int j = i - 1;
 			int key = array[i];
+			
+			//choose the next index in the array and place it in the proper location in the sorted
+			//section at the beginning of the array
 			while(j >= 0 && key < array[j]){
+				//rotate all of the values already in the sorted section of the array
+				//into the chosen index
 				int temp = array[j];
 				array[j] = array[j+1];
 				array[j+1] = temp;
