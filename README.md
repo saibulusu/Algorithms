@@ -37,3 +37,5 @@ Shift by k : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Shi
 Sort Substring : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/SortSubstring.java
 
 Reverse Iteratively : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseIterative.java
+
+Reverse Recursively : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseRecursive.java
