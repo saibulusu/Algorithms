@@ -12,8 +12,6 @@ Binary Search : https://github.com/saibulusu/Algorithms/blob/master/src/Searchin
 
 
 
-
-
 ## Sorting
 Bubble Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/BubbleSort.java
 
@@ -31,6 +29,8 @@ Pancake Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/P
 
 Counting Sort : https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/CountingSort.java
 
+
+
 ## String Manipulation
 Shift by k : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ShiftByK.java
 
@@ -39,3 +39,5 @@ Sort Substring : https://github.com/saibulusu/Algorithms/blob/master/src/Strings
 Reverse Iteratively : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseIterative.java
 
 Reverse Recursively : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseRecursive.java
+
+Valid Shuffle : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ValidShuffle.java
