@@ -41,3 +41,5 @@ Reverse Iteratively : https://github.com/saibulusu/Algorithms/blob/master/src/St
 Reverse Recursively : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseRecursive.java
 
 Valid Shuffle : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ValidShuffle.java
+
+Anagram : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Anagram.java
