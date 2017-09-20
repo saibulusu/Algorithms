@@ -14,12 +14,22 @@ public class IndexOf {
 		for(int i = 0; i < haystack.length() - needle.length() + 1; i++){
 			//if everything starting at the current index to the needle.length + this index
 			//is the same as the needle, return this index
-			if(haystack.substring(i, i + needle.length()).equals(needle)){
+			if(checkSubstring(haystack, needle, i)) {
 				return i;
 			}
 		}
 		//if nothing above finds the string, then this needle is not in the haystack
 		return -1;
+	}
+	
+	//check if the substring from start to start + needle.length() is equal to needle itself
+	public static boolean checkSubstring(String haystack, String needle, int start) {
+		//iterate through these indices in this string
+		for(int i = start; i < needle.length() + start; i++) {
+			//if character at i in the haystack isn't the same as the character at i - start in needle
+			//these two strings would not be equal
+			if(haystack.charAt(i) != needle.charAt(i - start)) return false;
+		} return true;
 	}
 	
 	@Test
