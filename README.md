@@ -47,3 +47,5 @@ Anagram : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Anagra
 Reverse Words : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseWords.java
 
 Index Of : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/IndexOf.java
+
+Longest Palindromic Substring : https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
