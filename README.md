@@ -48,4 +48,4 @@ Reverse Words: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/R
 
 Index Of: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/IndexOf.java
 
-Palindrome Substring: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
+Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
