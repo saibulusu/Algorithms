@@ -49,3 +49,5 @@ Reverse Words: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/R
 Index Of: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/IndexOf.java
 
 Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
+
+NoRepeat: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestNonRepeatingSubstring.java
