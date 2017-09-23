@@ -51,3 +51,5 @@ Index Of: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/IndexO
 Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
 
 NoRepeat: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestNonRepeatingSubstring.java
+
+Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ContainsDigits.java
