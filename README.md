@@ -53,3 +53,6 @@ Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Long
 NoRepeat: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestNonRepeatingSubstring.java
 
 Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ContainsDigits.java
+
+## Math
+Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
