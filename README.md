@@ -50,9 +50,11 @@ Index Of: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/IndexO
 
 Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
 
-NoRepeat: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestNonRepeatingSubstring.java
+Repeats: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestNonRepeatingSubstring.java
 
 Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ContainsDigits.java
 
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
+
+Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/Math/IsPrime.java
