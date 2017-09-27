@@ -58,3 +58,5 @@ Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
 
 Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/Math/IsPrime.java
+
+Combination: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Combination.java
