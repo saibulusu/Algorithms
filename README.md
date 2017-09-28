@@ -60,3 +60,6 @@ Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacc
 Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/Math/IsPrime.java
 
 Combination: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Combination.java
+
+
+Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Permutation.java
