@@ -56,6 +56,8 @@ Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings
 
 Valid Parentheses: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ValidParentheses.java
 
+Remove Characters: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Remove.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
 
