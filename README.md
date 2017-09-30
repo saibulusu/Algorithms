@@ -54,6 +54,8 @@ Repeats: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Longest
 
 Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ContainsDigits.java
 
+Valid Parentheses: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ValidParentheses.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
 
