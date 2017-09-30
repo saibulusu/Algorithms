@@ -58,12 +58,13 @@ Valid Parentheses: https://github.com/saibulusu/Algorithms/blob/master/src/Strin
 
 Remove Characters: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Remove.java
 
+String to Int: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/StringToInt.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
 
 Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/Math/IsPrime.java
 
 Combination: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Combination.java
-
 
 Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Permutation.java
