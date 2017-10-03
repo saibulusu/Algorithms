@@ -70,3 +70,5 @@ Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/Math/IsPrime.j
 Combination: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Combination.java
 
 Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Permutation.java
+
+Luhn: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Luhn.java
