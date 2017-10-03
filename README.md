@@ -60,6 +60,8 @@ Remove Characters: https://github.com/saibulusu/Algorithms/blob/master/src/Strin
 
 String to Int: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/StringToInt.java
 
+Convert Bases: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ConvertBase.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
 
