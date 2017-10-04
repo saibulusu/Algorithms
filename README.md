@@ -62,6 +62,8 @@ String to Int: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/S
 
 Convert Bases: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ConvertBase.java
 
+Caesar Cipher: https://github.com/saibulusu/Algorithms/blob/master/src/strings/CaesarCipher.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
 
