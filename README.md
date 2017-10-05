@@ -74,3 +74,5 @@ Combination: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Combin
 Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Permutation.java
 
 Luhn: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Luhn.java
+
+Reverse Integer: https://github.com/saibulusu/Algorithms/blob/master/src/math/ReverseInteger.java
