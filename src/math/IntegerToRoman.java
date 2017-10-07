@@ -8,10 +8,12 @@ public class IntegerToRoman {
 	public static String convert(int i){
 		String answer = "";
 		//set up the string that the method will return and add to it
-		
-		//for each of the possible values of each Roman numeral character
-		//check if i is greater than or equal to that value in order to check
-		//if that corresponding character should be added
+
+		/*
+		 * for each of the possible values of each Roman numeral character
+		 * check if i is greater than or equal to that value in order to check
+		 * if that corresponding character should be added
+		*/
 		while(i >= 1000){
 			answer += "M";
 			i -= 1000;

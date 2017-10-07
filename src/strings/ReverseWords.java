@@ -20,16 +20,20 @@ public class ReverseWords {
 				stack.push(sentence.substring(last, i).trim());
 				//update last
 				last = i;
-				//if the current index is the last character in the sentence
-				//no spaces will follow - this is an edge case
+				/*
+				 * if the current index is the last character in the sentence
+				 * no spaces will follow - this is an edge case
+				 */
 			} else if(i == sentence.length() - 1){
 				//just push everything from the last index to this current index
 				stack.push(sentence.substring(last).trim());
 			}
 		}
 		
-		//set output, which pulls from the stack
-		//pushing into a stack and then popping reverses the order
+		/*
+		 *  set output, which pulls from the stack
+		 * pushing into a stack and then popping reverses the order
+		 */
 		String output = "";
 		//while the stack is not empty, keep popping elements of the top of the stack
 		while(!stack.isEmpty()){

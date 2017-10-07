@@ -10,8 +10,9 @@ public class PancakeSort {
 			//calculate maxIndex
 			int maxIndex = maxElementIndex(array, size);
 			if(maxIndex != size - 1){
-				//while the maxIndex is not right before the size index, flip everything 
-				//before the size index
+				/* while the maxIndex is not right before the size index, flip everything 
+				 * before the size index
+				 */
 				flip(array, maxIndex);
 				flip(array, size - 1);
 			}

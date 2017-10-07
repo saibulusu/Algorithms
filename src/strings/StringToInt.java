@@ -12,8 +12,10 @@ public class StringToInt {
 			counter *= -1;
 			string = string.substring(1);
 		} else if (string.charAt(0) == '+'){
-			//if for some reason the first character says +, which it does not need to,
-			//just ignore this character
+			/*
+			 * if for some reason the first character says +, which it does not need to,
+			 * just ignore this character
+			 */
 			string = string.substring(1);
 		}
 		
@@ -26,13 +28,17 @@ public class StringToInt {
 			value += current * Math.pow(10, string.length() - 1- i);
 			//add this on to value by multiplying with the appropriate power of 10s
 		}
-		//return the product of value and counter, which only makes a difference if 
-		//counter is -1
+		/*
+		 * return the product of value and counter, which only makes a difference if 
+		 * counter is -1
+		 */
 		return value * counter;
 	}
 	
-	//convert a char directly to the number of that char
-	//for example, '7' becomes 7
+	/* 
+	 * convert a char directly to the number of that char
+	 * for example, '7' becomes 7
+	 */
 	public static int convert(char c){
 		//convert c to an integer with ascii conversion, and then subtract 48
 		return (int) c - 48;

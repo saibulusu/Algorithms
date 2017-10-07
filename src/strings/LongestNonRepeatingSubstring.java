@@ -14,8 +14,10 @@ public class LongestNonRepeatingSubstring {
 		for(int i = 0; i < string.length(); i++){
 			for(int j = i; j < string.length() + 1; j++){
 				String splash = string.substring(i, j);
-				//if the current substring is non repeating and the length
-				//is greater than the length of the current sub, reset sub
+				/*
+				 * if the current substring is non repeating and the length
+				 * is greater than the length of the current sub, reset sub
+				 */
 				if(isNonRepeating(splash) && splash.length() > sub.length())
 					sub = splash;
 			}
@@ -26,8 +28,11 @@ public class LongestNonRepeatingSubstring {
 	
 	//determine if a string is non repeating
 	public static boolean isNonRepeating(String string){
-		//if the length of the string is less than 2, then it is its own 
-		//longest repeating substring
+		/*
+		 * if the length of the string is less than 2, then it is its own 
+		 * longest repeating substring
+		 */
+		
 		if(string.length() < 2) return true;
 		//iterate through the whole string
 		for(int i = 0; i < string.length() - 1; i++){

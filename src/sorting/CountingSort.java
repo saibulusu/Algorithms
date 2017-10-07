@@ -8,14 +8,18 @@ public class CountingSort {
 		//determine the max value in this array
 		int max = array[0];
 		
-		//iterate through the whole array and check if the value at this index is already
-		//greater than the max 
+		/*
+		 * iterate through the whole array and check if the value at this index is already
+		 * greater than the max
+		 */
 		for(int i = 0; i < array.length; i++){
 			max = Math.max(array[i], max);
 		}
 
-		//array to record the number of counts,
-		//meaning all of the remainders when divided by max
+		/*
+		 * array to record the number of counts,
+		 * meaning all of the remainders when divided by max
+		 */
 		int[] counts = new int[max + 1];
 		//iterate through the whole array
 		for(int i = 0; i < array.length; i++){

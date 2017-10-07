@@ -24,8 +24,10 @@ public class ReverseInteger {
 				y1 += x1.charAt(x1.length() - 1 - i);
 			}
 		}
-		//if converting the string back to an int returns an exception, then return 0
-		//in this case, the integer is clearly out of bounds
+		/*
+		 * if converting the string back to an int returns an exception, then return 0
+		 * in this case, the integer is clearly out of bounds
+		 */
 		try {
 			return Integer.parseInt(y1);
 		} catch (NumberFormatException n){

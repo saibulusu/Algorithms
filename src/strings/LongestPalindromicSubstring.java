@@ -14,15 +14,19 @@ public class LongestPalindromicSubstring {
 		for(int i = 0; i < string.length(); i++){
 			for(int j = i; j < string.length() + 1; j++){
 				String splash = string.substring(i, j);
-				//if the current substring is palindromic and has a greater length than the
-				//current longest palindromic substring, reset sub
+				/*
+				 * if the current substring is palindromic and has a greater length than the
+				 * current longest palindromic substring, reset sub
+				 */
 				if(isPalindromic(splash) && splash.length() > sub.length()){
 					sub = splash;
 				}
 			}
 		}
-		//if every substring that is palindromic has a lesser or equal to length, then this is 
-		//the correct substring
+		/*
+		 * if every substring that is palindromic has a lesser or equal to length, then this is 
+		 * the correct substring
+		 */
 		return sub;
 	}
 	

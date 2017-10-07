@@ -24,8 +24,10 @@ public class BogoSort {
 	}
 	
 	public static boolean isSorted(int[] array){
-		//iteratively check if this array is already sorted
-		//return true if there are no values in the array
+		/*
+		 * iteratively check if this array is already sorted
+		 * return true if there are no values in the array
+		 */
 		if(array.length == 0) return true;
 		//iterate through the whole array
 		for(int i = 1; i < array.length; i++){

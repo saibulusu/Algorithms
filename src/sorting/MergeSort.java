@@ -28,8 +28,9 @@ public class MergeSort {
 	}
 	
 	public static void merge(int[] array, int[] temp, int leftStart, int rightEnd){
-		//initialize leftEnd to midway between leftStart and rightEnd, 
-		//rightStart to one index after leftEnd
+		/* initialize leftEnd to midway between leftStart and rightEnd, 
+		 * rightStart to one index after leftEnd
+		 */
 		int leftEnd = (rightEnd + leftStart)/2;
 		int rightStart = leftEnd + 1;
 		int size = rightEnd - leftStart + 1;
@@ -55,8 +56,9 @@ public class MergeSort {
 
 		int splash = index;
 		
-		//if left or right is still less than the length of the array segment
-		//place all remaining values of the array segments into the array
+		/* if left or right is still less than the length of the array segment
+		 * place all remaining values of the array segments into the array
+		 */
 		for(int i = left; i <  leftEnd + 1; i++){
 			temp[index] = array[i];
 			index ++;

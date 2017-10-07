@@ -31,8 +31,9 @@ public class QuickSort {
 		//choose a pivot randomly
 		int pivot = array[(int)(Math.random() * array.length)];
 		
-		//from left to right, array[left] and array[right] to pivot,
-		//then swap the two values and move in closer to the pivot
+		/* from left to right, array[left] and array[right] to pivot,
+		 * then swap the two values and move in closer to the pivot
+		 */
 		while(left < right){
 			while(array[left] < pivot){
 				left++;

@@ -14,8 +14,10 @@ public class ValidParentheses {
 				//if it is an opening parentheses sign, increment count
 				count++;
 			} else{
-				//otherwise, if count is zero, then it is valid until this character which
-				//is a closing parentheses
+				/*
+				 * otherwise, if count is zero, then it is valid until this character which
+				 * is a closing parentheses
+				 */
 				if(count == 0){
 					return false;
 				} else {

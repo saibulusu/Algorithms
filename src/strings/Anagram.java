@@ -5,16 +5,20 @@ import org.junit.Test;
 public class Anagram {
 	
 	public static boolean anagram(String a, String b){
-		//replace all spaces with empty strings 
-		//this will remove every space from the string
+		/*
+		 * replace all spaces with empty strings 
+		 * this will remove every space from the string
+		 */
 		a = a.replace(" ", "");
 		b = b.replace(" ", "");
 		//sort all of the characters in both strings
 		a = sort(a);
 		b = sort(b);
 		
-		//if a is equal to b now, then it is an anagram
-		//else, it is not an anagram
+		/*
+		 * if a is equal to b now, then it is an anagram
+		 * else, it is not an anagram
+		 */
 		return a.equals(b);
 	}
 	

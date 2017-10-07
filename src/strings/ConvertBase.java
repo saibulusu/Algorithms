@@ -44,9 +44,11 @@ public class ConvertBase {
 		int value = 0;
 		//start at 0, and add each digit's value in that given base
 		for(int i = 0; i < string.length(); i++){
-			//iterate through the whole String string
-			//convert the character to the current value, and multiply that value by the
-			//appropriate power of the base
+			/*
+			 * iterate through the whole String string
+			 * convert the character to the current value, and multiply that value by the
+			 * appropriate power of the base
+			 */
 			value += (string.charAt(i) - 48) * Math.pow(base, string.length() - 1 - i);
 		}
 		return value;

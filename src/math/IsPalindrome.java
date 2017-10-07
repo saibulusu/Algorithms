@@ -11,8 +11,10 @@ public class IsPalindrome {
 		int y = 0;
 		//y will become the palimage of x
 		
-		//while the copy is not 0, keep adding the last digit of copy to the back of y,
-		//multiply y by time right afterwards
+		/* 
+		 * while the copy is not 0, keep adding the last digit of copy to the back of y,
+		 * multiply y by time right afterwards
+		 */
 		while(copy != 0){
 			y *= 10;
 			y += copy % 10;

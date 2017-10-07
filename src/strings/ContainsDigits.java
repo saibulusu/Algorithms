@@ -10,8 +10,10 @@ public class ContainsDigits {
 		if(string.length() == 0) return false;
 		//iterate through the whole string
 		for(int i = 0; i < string.length(); i++){
-			//if the current char is outside of the ascii range for 
-			//chars 0 - 9, return false
+			/*
+			 * if the current char is outside of the ascii range for 
+			 * chars 0 - 9, return false
+			 */
 			char current = string.charAt(i);
 			if(current < 48 || current > 57)
 				return false;

@@ -28,8 +28,10 @@ public class RomanToInteger {
 		//iterate through the whole array and check compare with every other value after it
 		for (int i = 0; i < array.length; i++) {
 			for (int j = i; j < array.length; j++) {
-				//if the current value is greater than something following it, then this value
-				//is meant to be subtracted
+				/*
+				 * if the current value is greater than something following it, then this value
+				 *is meant to be subtracted
+				 */
 				if (array[j] > array[i]) {
 					array[i] *= -1;
 					break;
