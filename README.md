@@ -6,77 +6,79 @@ One Algorithm a day
 
 ## Searching
 
-Linear Search: https://github.com/saibulusu/Algorithms/blob/master/src/Searching/LinearSearch.java
+Linear Search: https://github.com/saibulusu/Algorithms/blob/master/src/searching/LinearSearch.java
 
-Binary Search: https://github.com/saibulusu/Algorithms/blob/master/src/Searching/BinarySearch.java
+Binary Search: https://github.com/saibulusu/Algorithms/blob/master/src/searching/BinarySearch.java
 
 
 
 ## Sorting
-Bubble Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/BubbleSort.java
+Bubble Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/BubbleSort.java
 
-Insertion Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/InsertionSort.java
+Insertion Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/InsertionSort.java
 
-Selection Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/SelectionSort.java
+Selection Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/SelectionSort.java
 
-Merge Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/MergeSort.java
+Merge Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/MergeSort.java
 
-Bogo Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/BogoSort.java
+Bogo Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/BogoSort.java
 
-Quick Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/QuickSort.java
+Quick Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/QuickSort.java
 
-Pancake Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/PancakeSort.java
+Pancake Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/PancakeSort.java
 
-Counting Sort: https://github.com/saibulusu/Algorithms/blob/master/src/Sorting/CountingSort.java
+Counting Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/CountingSort.java
 
 
 
 ## String Manipulation
-Shift by k: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ShiftByK.java
+Shift by k: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ShiftByK.java
 
-Sort Substring: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/SortSubstring.java
+Sort Substring: https://github.com/saibulusu/Algorithms/blob/master/src/strings/SortSubstring.java
 
-Reverse Iteratively: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseIterative.java
+Reverse Iteratively: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ReverseIterative.java
 
-Reverse Recursively: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseRecursive.java
+Reverse Recursively: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ReverseRecursive.java
 
-Valid Shuffle: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ValidShuffle.java
+Valid Shuffle: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ValidShuffle.java
 
-Anagram: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Anagram.java
+Anagram: https://github.com/saibulusu/Algorithms/blob/master/src/strings/Anagram.java
 
-Reverse Words: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ReverseWords.java
+Reverse Words: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ReverseWords.java
 
-Index Of: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/IndexOf.java
+Index Of: https://github.com/saibulusu/Algorithms/blob/master/src/strings/IndexOf.java
 
-Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestPalindromicSubstring.java
+Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/strings/LongestPalindromicSubstring.java
 
-Repeats: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/LongestNonRepeatingSubstring.java
+Repeats: https://github.com/saibulusu/Algorithms/blob/master/src/strings/LongestNonRepeatingSubstring.java
 
-Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ContainsDigits.java
+Contains Digits: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ContainsDigits.java
 
-Valid Parentheses: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ValidParentheses.java
+Valid Parentheses: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ValidParentheses.java
 
-Remove Characters: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/Remove.java
+Remove Characters: https://github.com/saibulusu/Algorithms/blob/master/src/strings/Remove.java
 
-String to Int: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/StringToInt.java
+String to Int: https://github.com/saibulusu/Algorithms/blob/master/src/strings/StringToInt.java
 
-Convert Bases: https://github.com/saibulusu/Algorithms/blob/master/src/Strings/ConvertBase.java
+Convert Bases: https://github.com/saibulusu/Algorithms/blob/master/src/strings/ConvertBase.java
 
 Caesar Cipher: https://github.com/saibulusu/Algorithms/blob/master/src/strings/CaesarCipher.java
 
 ## Math
-Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Fibonacci.java
+Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/math/Fibonacci.java
 
-Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/Math/IsPrime.java
+Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsPrime.java
 
-Combination: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Combination.java
+Combination: https://github.com/saibulusu/Algorithms/blob/master/src/math/Combination.java
 
-Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Permutation.java
+Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/math/Permutation.java
 
-Luhn: https://github.com/saibulusu/Algorithms/blob/master/src/Math/Luhn.java
+Luhn: https://github.com/saibulusu/Algorithms/blob/master/src/math/Luhn.java
 
 Reverse Integer: https://github.com/saibulusu/Algorithms/blob/master/src/math/ReverseInteger.java
 
 Integer To Roman: https://github.com/saibulusu/Algorithms/blob/master/src/math/IntegerToRoman.java
 
 Roman to Integer: https://github.com/saibulusu/Algorithms/blob/master/src/math/RomanToInteger.java
+
+Is Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsPalindrome.java
