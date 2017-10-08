@@ -64,6 +64,8 @@ Convert Bases: https://github.com/saibulusu/Algorithms/blob/master/src/strings/C
 
 Caesar Cipher: https://github.com/saibulusu/Algorithms/blob/master/src/strings/CaesarCipher.java
 
+Count and Say: https://github.com/saibulusu/Algorithms/blob/master/src/strings/CountAndSay.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/math/Fibonacci.java
 
