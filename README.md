@@ -71,7 +71,7 @@ Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/math/Fibonacc
 
 Is Prime: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsPrime.java
 
-Combination: https://github.com/saibulusu/Algorithms/blob/master/src/math/Combination.java
+Combination Recursive: https://github.com/saibulusu/Algorithms/blob/master/src/math/CombinationRecursive.java
 
 Permutation: https://github.com/saibulusu/Algorithms/blob/master/src/math/Permutation.java
 
@@ -84,3 +84,5 @@ Integer To Roman: https://github.com/saibulusu/Algorithms/blob/master/src/math/I
 Roman to Integer: https://github.com/saibulusu/Algorithms/blob/master/src/math/RomanToInteger.java
 
 Is Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsPalindrome.java
+
+Combination Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/math/CombinationIterative.java
