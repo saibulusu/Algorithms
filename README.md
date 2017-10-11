@@ -86,3 +86,6 @@ Roman to Integer: https://github.com/saibulusu/Algorithms/blob/master/src/math/R
 Is Palindrome: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsPalindrome.java
 
 Combination Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/math/CombinationIterative.java
+
+## Array
+Disjoint: https://github.com/saibulusu/Algorithms/blob/master/src/array/Disjoint.java
