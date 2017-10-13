@@ -94,3 +94,5 @@ Frequency: https://github.com/saibulusu/Algorithms/blob/master/src/array/Frequen
 
 Reverse: https://github.com/saibulusu/Algorithms/blob/master/src/array/Reverse.java
 
+Rotate: https://github.com/saibulusu/Algorithms/blob/master/src/array/Rotate.java
+
