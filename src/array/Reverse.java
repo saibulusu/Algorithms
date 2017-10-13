@@ -4,8 +4,11 @@ import org.junit.Test;
 
 public class Reverse {
 	
+	//reverse an array
 	public static int[] reverse(int[] array){
+		//iterate through the first half of the array
 		for(int i = 0; i < array.length / 2; i++){
+			//swap the current value with the value at the other end
 			int temp = array[i];
 			array[i] = array[array.length - 1 - i];
 			array[array.length - 1 - i] = temp;
