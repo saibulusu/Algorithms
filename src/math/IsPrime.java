@@ -5,19 +5,19 @@ import org.junit.Test;
 public class IsPrime {
 	
 	//check if a given number n is prime
-	public static boolean isPrime(int n){
+	public static boolean isPrime(int x){
 		/*
 		 * if n is one, then this is an edge case, because one is neither prime nor composite
 		 * this means that it should still return false for not being prime
 		 */
-		if(n == 1) return false;
+		if(x == 1) return false;
 		//iterate through everything from 2 to the square root of n
-		for(int i = 2; i <= Math.sqrt(n); i++){
+		for(int i = 2; i <= Math.sqrt(x); i++){
 			/*
 			 * if the current value divides n, return false
 			 * 1 can never be the current value, and neither can n itself
 			 */
-			if(n % i == 0) return false;
+			if(x % i == 0) return false;
 		} return true;
 		//if in every scenario, n cannot be divided, then n is prime
 	}
