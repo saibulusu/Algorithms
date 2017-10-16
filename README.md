@@ -89,6 +89,8 @@ Combination Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/m
 
 Division: https://github.com/saibulusu/Algorithms/blob/master/src/math/Division.java
 
+Is Composite: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsComposite.java
+
 ## Array
 Disjoint: https://github.com/saibulusu/Algorithms/blob/master/src/array/Disjoint.java
 
