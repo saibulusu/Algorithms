@@ -91,6 +91,8 @@ Division: https://github.com/saibulusu/Algorithms/blob/master/src/math/Division.
 
 Is Composite: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsComposite.java
 
+Multiply Strings: https://github.com/saibulusu/Algorithms/blob/master/src/math/MultiplyStrings.java
+
 ## Array
 Disjoint: https://github.com/saibulusu/Algorithms/blob/master/src/array/Disjoint.java
 
