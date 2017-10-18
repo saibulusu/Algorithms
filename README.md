@@ -104,3 +104,5 @@ Reverse: https://github.com/saibulusu/Algorithms/blob/master/src/array/Reverse.j
 
 Rotate: https://github.com/saibulusu/Algorithms/blob/master/src/array/Rotate.java
 
+## Stack
+Reverse Stack: https://github.com/saibulusu/Algorithms/tree/master/src/stacks/ReverseStack.java
