@@ -66,6 +66,8 @@ Caesar Cipher: https://github.com/saibulusu/Algorithms/blob/master/src/strings/C
 
 Count and Say: https://github.com/saibulusu/Algorithms/blob/master/src/strings/CountAndSay.java
 
+Hash: https://github.com/saibulusu/Algorithms/blob/master/src/strings/Hash.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/math/Fibonacci.java
 
