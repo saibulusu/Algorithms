@@ -1,9 +1,14 @@
 package array;
 
-public class Sum {
+import org.junit.Test;
+
+public class SumRecursive {
 
 	//return the sum of every element in the array
 	public static int sum(int[] array){
+		
+		if(array.length == 0) return 0;
+		
 		//use the recursive method with indices 0 and array.length - 1
 		return sum(array, 0, array.length - 1);
 	}
@@ -18,7 +23,7 @@ public class Sum {
 		return array[start] + sum(array, start + 1, end);
 	}
 	
-	
+	@Test
 	public void test(){
 		int[] a = {};
 		assert(sum(a) == 0);
