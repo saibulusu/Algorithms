@@ -104,7 +104,9 @@ Reverse: https://github.com/saibulusu/Algorithms/blob/master/src/array/Reverse.j
 
 Rotate: https://github.com/saibulusu/Algorithms/blob/master/src/array/Rotate.java
 
-Sum: https://github.com/saibulusu/Algorithms/blob/master/src/array/Sum.java
+Sum Recursive: https://github.com/saibulusu/Algorithms/blob/master/src/array/SumRecursive.java
+
+Sum Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/array/SumIterative.java
 
 ## Stack
 Reverse Stack: https://github.com/saibulusu/Algorithms/tree/master/src/stacks/ReverseStack.java
