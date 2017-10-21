@@ -108,5 +108,7 @@ Sum Recursive: https://github.com/saibulusu/Algorithms/blob/master/src/array/Sum
 
 Sum Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/array/SumIterative.java
 
+Max: https://github.com/saibulusu/Algorithms/blob/master/src/array/Max.java
+
 ## Stack
 Reverse Stack: https://github.com/saibulusu/Algorithms/tree/master/src/stacks/ReverseStack.java
