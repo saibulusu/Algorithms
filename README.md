@@ -110,5 +110,7 @@ Sum Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/array/Sum
 
 Max: https://github.com/saibulusu/Algorithms/blob/master/src/array/Max.java
 
+Two Sum: https://github.com/saibulusu/Algorithms/blob/master/src/array/TwoSum.java
+
 ## Stack
 Reverse Stack: https://github.com/saibulusu/Algorithms/tree/master/src/stacks/ReverseStack.java
