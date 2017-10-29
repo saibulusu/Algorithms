@@ -119,3 +119,5 @@ Reverse Stack: https://github.com/saibulusu/Algorithms/tree/master/src/stacks/Re
 Deletion: https://github.com/saibulusu/Algorithms/blob/master/src/linkedlist/Deletion.java
 
 Length Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/linkedlist/LengthIterative.java
+
+Length Recursive: https://github.com/saibulusu/Algorithms/blob/master/src/linkedlist/LengthRecursive.java
