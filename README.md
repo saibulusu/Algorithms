@@ -114,3 +114,6 @@ Two Sum: https://github.com/saibulusu/Algorithms/blob/master/src/array/TwoSum.ja
 
 ## Stack
 Reverse Stack: https://github.com/saibulusu/Algorithms/tree/master/src/stacks/ReverseStack.java
+
+## Linked List
+Deletion: https://github.com/saibulusu/Algorithms/blob/master/src/linkedlist/Deletion.java
