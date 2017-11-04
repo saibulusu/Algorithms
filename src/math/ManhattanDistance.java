@@ -19,9 +19,12 @@ public class ManhattanDistance {
 	}
 	
 	
+	//find the Manhattan Distance between two points
 	public int distance(Point a, Point b){
+		//compute the change in x and in y, but sign matters
 		int dx = Math.abs(a.x - b.x);
 		int dy = Math.abs(a.y - b.y);
+		//return the sum
 		return dx + dy;
 	}
 	
