@@ -1,6 +1,6 @@
 # Algorithms
 
-One Algorithm a day
+Various Computational Algorithms
 
 
 
@@ -94,6 +94,10 @@ Division: https://github.com/saibulusu/Algorithms/blob/master/src/math/Division.
 Is Composite: https://github.com/saibulusu/Algorithms/blob/master/src/math/IsComposite.java
 
 Multiply Strings: https://github.com/saibulusu/Algorithms/blob/master/src/math/MultiplyStrings.java
+
+Distance: https://github.com/saibulusu/Algorithms/blob/master/src/math/Distance.java
+
+ManHattan Distance: https://github.com/saibulusu/Algorithms/blob/master/src/math/ManhattanDistance.java
 
 ## Array
 Disjoint: https://github.com/saibulusu/Algorithms/blob/master/src/array/Disjoint.java
