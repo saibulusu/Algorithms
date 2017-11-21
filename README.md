@@ -68,6 +68,8 @@ Count and Say: https://github.com/saibulusu/Algorithms/blob/master/src/strings/C
 
 Hash: https://github.com/saibulusu/Algorithms/blob/master/src/strings/Hash.java
 
+Subsequence: https://github.com/saibulusu/Algorithms/blob/master/src/strings/LongestCommonSubsequence.java
+
 ## Math
 Fibonacci: https://github.com/saibulusu/Algorithms/blob/master/src/math/Fibonacci.java
 
