@@ -129,4 +129,4 @@ Length Iterative: https://github.com/saibulusu/Algorithms/blob/master/src/linked
 Length Recursive: https://github.com/saibulusu/Algorithms/blob/master/src/linkedlist/LengthRecursive.java
 
 ## Navigation
-Shortest Path: https://github.com/saibulusu/Algorithms/tree/master/src/navigation/ShorestPath.java
+Shortest Path: https://github.com/saibulusu/Algorithms/tree/master/src/navigation/ShortestPath.java
