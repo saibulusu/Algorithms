@@ -29,6 +29,8 @@ Pancake Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/Pa
 
 Counting Sort: https://github.com/saibulusu/Algorithms/blob/master/src/sorting/CountingSort.java
 
+Heap Sort: https://github.com/saibulusu/Algorithms/commit/700a73d41e0eb2aad511fa17032a6e4f5b9c0bfc
+
 
 
 ## String Manipulation
