@@ -6,55 +6,33 @@ public class QuickSort {
 
   // quickSort from 0 to the last index of the array
   public static int[] quickSort(int[] array) {
-    return quickSort(array, 0, array.length - 1);
-  }
-
-  // recursive quickSort from left to right inclusive
-  public static int[] quickSort(int[] array, int left, int right) {
-    // partition the array
-    int index = partition(array, left, right);
-
-    // if left is to the left of index - 1, sort everything in this range
-    if (left < index - 1) {
-      array = quickSort(array, left, index - 1);
-    }
-
-    // if right is to the right of index, sort everything in this range
-    if (right > index) {
-      array = quickSort(array, index, right);
-    }
+    quickSort(array, 0, array.length - 1);
     return array;
   }
 
-  // partition the array from left to right inclusive
-  public static int partition(int[] array, int left, int right) {
-    // choose a pivot randomly
-    int pivot = array[(int) (Math.random() * array.length)];
+  public static void quickSort(int[] array, int start, int end) {
+    if (start < end) {
+      int partition = partition(array, start, end);
+      quickSort(array, start, partition - 1);
+      quickSort(array, partition, end);
+    }
+  }
 
-    /*
-     * from left to right, array[left] and array[right] to pivot, then swap the two values and move
-     * in closer to the pivot
-     */
-    while (left < right) {
-      while (array[left] < pivot) {
-        left++;
-      }
-
-      while (array[right] > pivot) {
-        right--;
-      }
-
-      if (left <= right) {
-        // swap left and right
-        int temp = array[left];
-        array[left] = array[right];
-        array[right] = temp;
-        // increment and decrement left and right respectively, more close to pivot
-        left++;
-        right--;
+  public static int partition(int[] array, int start, int end) {
+    int pivot = array[end];
+    int index = start;
+    for (int i = index; i < end; i++) {
+      if (array[i] <= pivot) {
+        int temp = array[i];
+        array[i] = array[index];
+        array[index] = pivot;
+        index++;
       }
     }
-    return left;
+    int temp = array[index];
+    array[index] = array[end];
+    array[end] = temp;
+    return index;
   }
 
   public static boolean isSorted(int[] array) {
@@ -70,7 +48,7 @@ public class QuickSort {
 
   @Test
   public void test() {
-    int[] arr1 = {0, -3, 10, 3, 4, 3, 9, 17, -10, 43};
+    int[] arr1 = {0, 2, 5, -2, -100, 4};
     quickSort(arr1);
 
     assert (isSorted(arr1));
@@ -88,6 +66,11 @@ public class QuickSort {
     quickSort(arr3);
 
     assert (isSorted(arr3));
+
+    int[] arr4 = {2, 1, 3, 6, 8, 5, 7, 4};
+    quickSort(arr4);
+
+    assert (isSorted(arr4));
   }
 
 }
